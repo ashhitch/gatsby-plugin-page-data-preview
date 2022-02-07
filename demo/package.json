@@ -2,8 +2,8 @@
   "name": "demo",
   "version": "1.0.0",
   "private": true,
-  "description": "@raae/gatsby-plugin-starter demo",
-  "author": "@raae",
+  "description": "gatsby-plugin-page-data-preview demo",
+  "author": "@ash_hitchcock",
   "keywords": [
     "gatsby"
   ],
@@ -15,7 +15,7 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
-    "@raae/gatsby-plugin-starter": "*",
+    "gatsby-plugin-page-data-preview": "*",
     "gatsby": "4.6.0",
     "react": "17.0.2",
     "react-dom": "17.0.2"

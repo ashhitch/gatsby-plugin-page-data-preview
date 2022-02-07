@@ -1,7 +1,7 @@
 {
-  "name": "@raae/gatsby-plugin-starter",
+  "name": "gatsby-plugin-page-data-preview",
   "version": "1.6.2",
-  "author": "@raae",
+  "author": "@ash_hitchcock",
   "description": "A starter to bootstrap your next Gatsby Plugin — automatic release to npm with semantic-release out of the box 📦 🪄",
   "keywords": [
     "gatsby",
@@ -16,13 +16,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/queen-raae/gatsby-plugin-starter.git"
+    "url": "git+https://github.com/ashhitch/gatsby-plugin-page-data-preview.git"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/queen-raae/gatsby-plugin-starter/issues"
+    "url": "https://github.com/ashhitch/gatsby-plugin-page-data-preview/issues"
   },
-  "homepage": "https://github.com/queen-raae/gatsby-plugin-starter#readme",
+  "homepage": "https://github.com/ashhitch/gatsby-plugin-page-data-preview#readme",
   "devDependencies": {},
   "dependencies": {},
   "peerDependencies": {
