@@ -24,7 +24,9 @@
   },
   "homepage": "https://github.com/ashhitch/gatsby-plugin-page-data-preview#readme",
   "devDependencies": {},
-  "dependencies": {},
+  "dependencies": {
+    "react-json-tree": "^0.16.1"
+  },
   "peerDependencies": {
     "gatsby": "^3.0.0 || ^4.0.0"
   }

@@ -1,6 +1,9 @@
-import React, { FC } from 'react';
+import React from 'react';
 import { JSONTree } from 'react-json-tree';
-
+import './style.css';
+function isEmpty(obj) {
+  return Object.keys(obj).length === 0;
+}
 const theme = {
   scheme: 'monokai',
   author: 'wimer hazenberg (http://www.monokai.nl)',
@@ -22,8 +25,30 @@ const theme = {
   base0F: '#cc6633',
 };
 
-export const DataPreview = ({ data }) => (
-  <>{process.env.NODE_ENV === 'development' && <JSONTree data={data} theme={theme} invertTheme hideRoot />}</>
-);
+export const DataPreview = ({ data }) => {
+console.log(data);
 
-export default DataPreview;
+return (
+  <>{process.env.NODE_ENV === 'development' && <>
+  
+  
+  <button type="button" className="page-data-preview-action">
+  🧰
+    </button>
+  <div className="page-data-preview">
+    <h2>URI: {data.uri}</h2>
+    {data?.pageContext && !isEmpty(data.pageContext) && <div className="page-data-preview__item">
+      <h3>Page Context</h3>
+      <JSONTree data={data.pageContext} theme={theme} invertTheme hideRoot  />
+      </div>}
+    {data?.serverData && !isEmpty(data.serverData) && <div className="page-data-preview__item">
+      <h3>SSR Data</h3>
+      <JSONTree data={data.serverData} theme={theme} invertTheme hideRoot  />
+      </div>}
+
+
+    </div>
+    
+    </>}</>
+);
+} 
