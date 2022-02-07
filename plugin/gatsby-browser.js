@@ -1,10 +1,3 @@
-// https://www.gatsbyjs.com/docs/reference/config-files/gatsby-browser/
+import CustomLayout from './wrapPageElement';
 
-const { EMOJIS } = require("./constants");
-
-exports.onInitialClientRender = (_, pluginOptions) => {
-  const { message, emoji } = pluginOptions;
-  const selectedEmoji = EMOJIS[emoji];
-
-  alert(`${selectedEmoji} ${message} ${selectedEmoji}`);
-};
+export const wrapPageElement = CustomLayout;
