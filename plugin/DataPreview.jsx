@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import { JSONTree } from "react-json-tree";
 import "./style.css";
 function isEmpty(obj) {
@@ -31,14 +31,29 @@ export const DataPreview = ({ data }) => {
 
   return (
     <>
-      {process.env.NODE_ENV === "development" && (
-        <div className={`page-data-preview-wrap ${show ? 'is-active' : ''}`}>
-          <button type="button" className="page-data-preview-action" onClick={() => setShow(s=>!s)}>
-            🧰
-          </button>
-          {show && (
-            <div className="page-data-preview">
+      <div className={`page-data-preview-wrap ${show ? "is-active" : ""}`}>
+        <button
+          type="button"
+          className="page-data-preview-action"
+          onClick={() => setShow((s) => !s)}
+        >
+          🧰
+        </button>
+        {show && (
+          <div className="page-data-preview">
+            <div className="page-data-preview__content">
               <h2>URI: {data.uri}</h2>
+              {data?.data && !isEmpty(data.data) && (
+                <div className="page-data-preview__item">
+                  <h3>Page Data</h3>
+                  <JSONTree
+                    data={data.data}
+                    theme={theme}
+                    invertTheme
+                    hideRoot
+                  />
+                </div>
+              )}
               {data?.pageContext && !isEmpty(data.pageContext) && (
                 <div className="page-data-preview__item">
                   <h3>Page Context</h3>
@@ -62,9 +77,9 @@ export const DataPreview = ({ data }) => {
                 </div>
               )}
             </div>
-          )}
-        </div>
-      )}
+          </div>
+        )}
+      </div>
     </>
   );
 };

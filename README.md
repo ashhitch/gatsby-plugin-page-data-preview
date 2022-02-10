@@ -1,6 +1,6 @@
 # gatsby-plugin-page-data-preview
 
-> Amazing plugin that solves everything
+> A little helper plugin that visualises your Gatsby Page Data
 
 ## How to install
 
