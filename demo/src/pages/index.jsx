@@ -1,4 +1,5 @@
 import React from "react";
+import {  Link } from 'gatsby';
 
 const IndexPage = () => {
   return (
@@ -8,12 +9,15 @@ const IndexPage = () => {
           <span role="img" aria-label="Party popper emoji">
             🎉&nbsp;
           </span>
-          Awsome plugin demo
+          Gatsby Data Preview
           <span role="img" aria-label="Party popper emoji">
             &nbsp;🎉
           </span>
         </h1>
       </header>
+      <article>
+        <Link to="/demo-page">View Generated Demo Page</Link>
+      </article>
     </main>
   );
 };

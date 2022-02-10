@@ -1,8 +1,7 @@
 import React from "react";
-import { graphql } from 'gatsby';
+import { graphql, Link } from 'gatsby';
 
 const DemoPage = (props) => {
-  console.log(props);
   return (
     <main>
       <header>
@@ -10,12 +9,15 @@ const DemoPage = (props) => {
           <span role="img" aria-label="Party popper emoji">
             🎉&nbsp;
           </span>
-          Awsome plugin demo
+          Demo Page
           <span role="img" aria-label="Party popper emoji">
             &nbsp;🎉
           </span>
         </h1>
       </header>
+      <article>
+        <Link to="/">Back Home</Link>
+      </article>
     </main>
   );
 };

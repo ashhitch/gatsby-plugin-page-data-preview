@@ -1,6 +1,6 @@
-# gatsby-plugin-page-data-preview
+# Gatsby plugin page data preview
 
-> A little helper plugin that visualises your Gatsby Page Data
+> A little helper plugin that visualises your Gatsby Page Data in a super handle pullout blade.
 
 ## How to install
 
