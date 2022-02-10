@@ -15,7 +15,12 @@ or
 ```
 module.exports = {
   plugins: [
-    `gatsby-plugin-page-data-preview`
+    {
+      resolve: `gatsby-plugin-page-data-preview`,
+      options: {
+        onlyDev: false, // defaults to true (only show in develop)
+      },
+    },
   ],
 }
 ```
