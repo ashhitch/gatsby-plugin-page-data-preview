@@ -11,11 +11,39 @@
   flex-wrap: nowrap;
   width: 195vw;
   max-width: 600px;
+  font-size: 16px;
+}
+.page-data-preview-wrap h1,
+.page-data-preview-wrap h2,
+.page-data-preview-wrap h3,
+.page-data-preview-wrap h4,
+.page-data-preview-wrap h5 {
+  margin: 3rem 0 1.38rem;
+  font-weight: 400;
+  line-height: 1.3;
 }
 
-.page-data-preview-wrap.is-active {
+.page-data-preview-wrap h1 {
+  margin-top: 0;
+  font-size: 2.488rem;
+}
+
+.page-data-preview-wrap h2 {
+  font-size: 2.074rem;
+}
+
+.page-data-preview-wrap h3 {
+  font-size: 1.728rem;
+}
+
+.page-data-preview-wrap h4 {
+  font-size: 1.44rem;
+}
+
+.is-active {
   transform: translateX(0);
 }
+
 .page-data-preview-action {
   cursor: pointer;
   background: white;

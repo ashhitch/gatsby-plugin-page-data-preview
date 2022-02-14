@@ -1,9 +1,13 @@
 import React, { useState } from "react";
 import { JSONTree } from "react-json-tree";
-import "./style.css";
+import { Portal } from "./Portal";
+
+import * as containerStyles from "./style.module.css"
+
 function isEmpty(obj) {
   return Object.keys(obj).length === 0;
 }
+
 const theme = {
   scheme: "monokai",
   author: "wimer hazenberg (http://www.monokai.nl)",
@@ -28,20 +32,21 @@ const theme = {
 export const DataPreview = ({ data }) => {
   console.log(data);
   const [show, setShow] = useState(false);
+  console.log(containerStyles);
 
   return (
-    <>
-      <div className={`page-data-preview-wrap ${show ? "is-active" : ""}`}>
+    <Portal id="preview-blade-portal">
+      <div className={`${containerStyles.pageDataPreviewWrap} ${show ? `${containerStyles.isActive}`: ""}`}>
         <button
           type="button"
-          className="page-data-preview-action"
+          className={containerStyles.pageDataPreviewAction}
           onClick={() => setShow((s) => !s)}
         >
           🧰
         </button>
         {show && (
-          <div className="page-data-preview">
-            <div className="page-data-preview__content">
+          <div className={containerStyles.pageDataPreview}>
+            <div className={containerStyles.pageDataPreviewContent}>
               <h2>URI: {data.uri}</h2>
               {data?.data && !isEmpty(data.data) && (
                 <div className="page-data-preview__item">
@@ -80,6 +85,6 @@ export const DataPreview = ({ data }) => {
           </div>
         )}
       </div>
-    </>
+    </Portal>
   );
 };
