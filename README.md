@@ -2,6 +2,10 @@
 
 > A little helper plugin that visualises your Gatsby Page Data in a super handle pullout blade.
 
+![Demo screen](demo.png)
+
+View it in action here: [Demo Link](https://pagedatapreview.gatsbyjs.io)
+
 ## How to install
 
 `npm install gatsby-plugin-page-data-preview`
