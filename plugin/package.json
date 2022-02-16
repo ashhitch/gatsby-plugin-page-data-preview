@@ -2,10 +2,11 @@
   "name": "gatsby-plugin-page-data-preview",
   "version": "0.0.0",
   "author": "@ash_hitchcock",
-  "description": "A starter to bootstrap your next Gatsby Plugin — automatic release to npm with semantic-release out of the box 📦 🪄",
+  "description": "A Gatsby plugin to preview page data in the browser",
   "keywords": [
     "gatsby",
-    "gatsby-plugin"
+    "gatsby-plugin",
+    "page-data"
   ],
   "main": "index.js",
   "publishConfig": {
