@@ -4,7 +4,7 @@
 
 ![Demo screen](demo.png)
 
-View it in action here: [Demo Link](https://pagedatapreview.gatsbyjs.io)
+View it in action here: [Demo Link](https://pagedatapreview.gatsbyjs.io/demo-page)
 
 ## How to install
 
