@@ -42,7 +42,7 @@ export const DataPreview = ({ data }) => {
           className={containerStyles.pageDataPreviewAction}
           onClick={() => setShow((s) => !s)}
         >
-          {show ? '🔨' : '❌'}
+          {show ?  '❌' :  '🔨'}
         </button>
         {show && (
           <div className={containerStyles.pageDataPreview}>
