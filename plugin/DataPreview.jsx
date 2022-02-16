@@ -30,9 +30,9 @@ const theme = {
 };
 
 export const DataPreview = ({ data }) => {
-  console.log(data);
+
   const [show, setShow] = useState(false);
-  console.log(containerStyles);
+ 
 
   return (
     <Portal id="preview-blade-portal">
@@ -49,7 +49,7 @@ export const DataPreview = ({ data }) => {
             <div className={containerStyles.pageDataPreviewContent}>
               <h2>URI: {data.uri}</h2>
               {data?.data && !isEmpty(data.data) && (
-                <div className="page-data-preview__item">
+                <div className={containerStyles.pageDataPreviewItem}>
                   <h3>Page Data</h3>
                   <JSONTree
                     data={data.data}
@@ -60,7 +60,7 @@ export const DataPreview = ({ data }) => {
                 </div>
               )}
               {data?.pageContext && !isEmpty(data.pageContext) && (
-                <div className="page-data-preview__item">
+                <div className={containerStyles.pageDataPreviewItem}>
                   <h3>Page Context</h3>
                   <JSONTree
                     data={data.pageContext}
@@ -71,7 +71,7 @@ export const DataPreview = ({ data }) => {
                 </div>
               )}
               {data?.serverData && !isEmpty(data.serverData) && (
-                <div className="page-data-preview__item">
+                <div className={containerStyles.pageDataPreviewItem}>
                   <h3>SSR Data</h3>
                   <JSONTree
                     data={data.serverData}
