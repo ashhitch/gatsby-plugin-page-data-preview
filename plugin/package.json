@@ -6,7 +6,9 @@
   "keywords": [
     "gatsby",
     "gatsby-plugin",
-    "page-data"
+    "page-data",
+    "toolkit",
+    "debugging"
   ],
   "main": "index.js",
   "publishConfig": {

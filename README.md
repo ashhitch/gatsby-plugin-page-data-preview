@@ -1,6 +1,10 @@
 # Gatsby plugin page data preview
 
-> A little helper plugin that visualises your Gatsby Page Data in a super handle pullout blade.
+> A little helper plugin that visualises your Gatsby Page Data in a super handy pullout blade.
+
+- Page Data
+- Page Context
+- SSR Data
 
 ![Demo screen](demo.png)
 

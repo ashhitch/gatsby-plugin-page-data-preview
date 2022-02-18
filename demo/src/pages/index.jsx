@@ -16,7 +16,8 @@ const IndexPage = () => {
         </h1>
       </header>
       <article>
-        <Link to="/demo-page">View Generated Demo Page</Link>
+        <Link to="/demo-page">View Generated Demo Page</Link><br />
+        <Link to="/ssr">View SSR Demo Page</Link>
       </article>
     </main>
   );
