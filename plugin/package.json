@@ -1,6 +1,6 @@
 {
   "name": "gatsby-plugin-page-data-preview",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "@ash_hitchcock",
   "description": "A Gatsby plugin to preview page data in the browser",
   "keywords": [
