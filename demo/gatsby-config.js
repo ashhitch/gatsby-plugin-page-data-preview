@@ -6,5 +6,9 @@ module.exports = {
         onlyDev: false,
       },
     },
+    {
+      resolve: `gatsby-plugin-gatsby-cloud`,
+      options: {},
+    },
   ],
 };
