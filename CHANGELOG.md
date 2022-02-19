@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/ashhitch/gatsby-plugin-page-data-preview/compare/v1.0.4...v1.1.0) (2022-02-19)
+
+### Features
+
+- Updated Styling ([e8640fa](https://github.com/ashhitch/gatsby-plugin-page-data-preview/commit/e8640fa335f29045aec052c54b82dd41cf1b0338))
+- Updated Styling ([4560ba8](https://github.com/ashhitch/gatsby-plugin-page-data-preview/commit/4560ba82e3d03ad67bf0f1102d0d9331ca2aef8a))
+
 ## [1.0.4](https://github.com/ashhitch/gatsby-plugin-page-data-preview/compare/v1.0.3...v1.0.4) (2022-02-18)
 
 ### Bug Fixes
