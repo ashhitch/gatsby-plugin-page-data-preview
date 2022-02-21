@@ -1,3 +1,9 @@
+## [1.1.1](https://github.com/ashhitch/gatsby-plugin-page-data-preview/compare/v1.1.0...v1.1.1) (2022-02-21)
+
+### Bug Fixes
+
+- Pointer Events ([2aafb20](https://github.com/ashhitch/gatsby-plugin-page-data-preview/commit/2aafb20f78c6966a2469394fe317dbfbbc21f852))
+
 # [1.1.0](https://github.com/ashhitch/gatsby-plugin-page-data-preview/compare/v1.0.4...v1.1.0) (2022-02-19)
 
 ### Features
