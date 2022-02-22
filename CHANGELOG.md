@@ -1,3 +1,9 @@
+## [1.1.2](https://github.com/ashhitch/gatsby-plugin-page-data-preview/compare/v1.1.1...v1.1.2) (2022-02-22)
+
+### Bug Fixes
+
+- content height ([4c2d4fd](https://github.com/ashhitch/gatsby-plugin-page-data-preview/commit/4c2d4fd60120e00c49896d2d2337ef6c1e27095a))
+
 ## [1.1.1](https://github.com/ashhitch/gatsby-plugin-page-data-preview/compare/v1.1.0...v1.1.1) (2022-02-21)
 
 ### Bug Fixes
