@@ -33,7 +33,6 @@ export const DataPreview = ({ data }) => {
 
   const [show, setShow] = useState(false);
  
-
   return (
     <Portal id="preview-blade-portal">
       <div className={`${containerStyles.pageDataPreviewWrap} ${show ? `${containerStyles.isActive}`: ""}`}>
@@ -46,7 +45,7 @@ export const DataPreview = ({ data }) => {
         </button>
         {show && (
           <div className={containerStyles.pageDataPreview}>
-            <div className={containerStyles.pageDataPreviewContent}>
+            <div className={containerStyles.pageDataPreview__content}>
               <h2>URI: {data.uri}</h2>
               {data?.data && !isEmpty(data.data) && (
                 <div className={containerStyles.pageDataPreviewItem}>
