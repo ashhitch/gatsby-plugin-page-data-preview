@@ -1,3 +1,9 @@
+# [1.2.0](https://github.com/ashhitch/gatsby-plugin-page-data-preview/compare/v1.1.2...v1.2.0) (2022-03-02)
+
+### Features
+
+- Add location data ([60f574b](https://github.com/ashhitch/gatsby-plugin-page-data-preview/commit/60f574b83383ca5c58c12c65755b09d537329520))
+
 ## [1.1.2](https://github.com/ashhitch/gatsby-plugin-page-data-preview/compare/v1.1.1...v1.1.2) (2022-02-22)
 
 ### Bug Fixes
