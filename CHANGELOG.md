@@ -1,3 +1,15 @@
+## [1.1.2](https://github.com/ashhitch/gatsby-plugin-page-data-preview/compare/v1.1.1...v1.1.2) (2022-02-22)
+
+### Bug Fixes
+
+- content height ([4c2d4fd](https://github.com/ashhitch/gatsby-plugin-page-data-preview/commit/4c2d4fd60120e00c49896d2d2337ef6c1e27095a))
+
+## [1.1.1](https://github.com/ashhitch/gatsby-plugin-page-data-preview/compare/v1.1.0...v1.1.1) (2022-02-21)
+
+### Bug Fixes
+
+- Pointer Events ([2aafb20](https://github.com/ashhitch/gatsby-plugin-page-data-preview/commit/2aafb20f78c6966a2469394fe317dbfbbc21f852))
+
 # [1.1.0](https://github.com/ashhitch/gatsby-plugin-page-data-preview/compare/v1.0.4...v1.1.0) (2022-02-19)
 
 ### Features

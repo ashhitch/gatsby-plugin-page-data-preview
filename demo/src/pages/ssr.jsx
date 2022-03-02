@@ -14,7 +14,7 @@ const SSRPage = ({ serverData }) => {
             &nbsp;🎉
           </span>
           <div>
-            <img alt="Happy dog" src={serverData.message} />
+            <img alt="Happy dog" src={serverData.message} style={{maxWidth: '400px', height: 'auto'}}/>
           </div>
         </h1>
       </header>
