@@ -16,7 +16,7 @@ const IndexPage = () => {
         </h1>
       </header>
       <article>
-        <Link to="/demo-page">View Generated Demo Page</Link><br />
+        <Link to="/demo-page" state={{doesThisWork: true, someMoreState: "here"}}>View Generated Demo Page</Link><br />
         <Link to="/ssr">View SSR Demo Page</Link>
       </article>
     </main>
