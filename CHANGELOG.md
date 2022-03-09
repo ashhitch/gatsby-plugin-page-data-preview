@@ -1,3 +1,9 @@
+## [1.2.1](https://github.com/ashhitch/gatsby-plugin-page-data-preview/compare/v1.2.0...v1.2.1) (2022-03-09)
+
+### Bug Fixes
+
+- overflow ([318ae9f](https://github.com/ashhitch/gatsby-plugin-page-data-preview/commit/318ae9f2200148aea29d400234e368900685f6a2))
+
 # [1.2.0](https://github.com/ashhitch/gatsby-plugin-page-data-preview/compare/v1.1.2...v1.2.0) (2022-03-02)
 
 ### Features
