@@ -101,4 +101,5 @@
 
 .page-data-preview__content {
   overflow-y: auto;
+  height: 100%;
 }
